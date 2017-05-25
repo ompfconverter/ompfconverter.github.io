@@ -1,0 +1,56 @@
+#canv{
+  display:block;
+}
+
+/*---------------------------------*/
+
+.welcomeTable {
+  padding: 100px; 
+  padding-bottom: 400px; 
+  margin: -10px; 
+  display: flex; 
+  justify-content: center; 
+  background-image: url('https://www.walldevil.com/wallpapers/w07/simple-simple-background-hd-background.jpg')
+}
+
+.welcomeTable button.welcome {
+  background: transparent;
+  border: none;
+  font-size: 100px;
+  line-height: 130px;
+  color: white;}
+
+button:active {outline: none;}
+
+button:focus {outline: none;}
+
+body {background: url('http://www.guneydoguofset.com/wp-content/uploads/2013/08/G%C3%9CM%C3%9C%C5%9E1.jpg')}
+
+.mainTable {
+  display: flex; 
+  justify-content: center; 
+  text-align: center;}
+.mainTable p {font-size: 24px;}
+ul.selectInput {
+  list-style-type: none;
+  display: flex; 
+  flex-direction: horizontal}
+ul.selectInput li button{
+  margin-top: 55px; 
+  margin-left: 10px;
+  padding: 10px; 
+  background: transparent; 
+  border: none; 
+  font-size: 30px; 
+  border-bottom: 2px solid transparent;}
+
+ul.selectInput li:hover button {
+  border-bottom: 2px solid black; 
+  transition: .2s linear; 
+  cursor: pointer;}
+
+p.inputPreface {
+  position: absolute;
+  margin-left: 25px;
+  font-family: sans-serif
+}
